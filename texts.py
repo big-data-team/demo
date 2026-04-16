@@ -1,2 +1,2 @@
 def message():
-    return "Hello, World !!!"
+    return "Hello, World !"
