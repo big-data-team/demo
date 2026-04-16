@@ -6,8 +6,6 @@ def main():
         print(bye(), ":(")
     else:
         print(message())
-    print("-----")
-    return 0
 
 if __name__ == "__main__":
     main()
