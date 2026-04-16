@@ -1,5 +1,5 @@
 def message():
-    return "Hello, World !"
+    return "Hello, World"
 
 def bye():
     return "bye"
