@@ -6,7 +6,7 @@ def main():
         print(bye(), ":(")
     else:
         for _ in range(3):
-            print(message())
+            print(message(), ":)")
 
 if __name__ == "__main__":
     main()
