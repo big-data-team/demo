@@ -3,7 +3,7 @@ from texts import message, bye
 
 def main():
     if len(sys.argv) >= 2 and sys.argv[1] == "b":
-        print(bye())
+        print(bye(), ":(")
     else:
         print(message())
     return 0
