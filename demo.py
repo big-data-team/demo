@@ -5,7 +5,8 @@ def main():
     if len(sys.argv) >= 2 and sys.argv[1] == "b":
         print(bye(), ":(")
     else:
-        print(message())
+        for _ in range(3):
+            print(message())
 
 if __name__ == "__main__":
     main()
