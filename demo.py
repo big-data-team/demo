@@ -1,7 +1,11 @@
-from texts import message
+import sys
+from texts import message, bye
 
 def main():
-    print(message())
+    if len(sys.argv) >= 2 and sys.argv[1] == "b":
+        print(bye())
+    else:
+        print(message())
     return 0
 
 if __name__ == "__main__":
