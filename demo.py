@@ -7,4 +7,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("That's all")
+    print("That's all!")
