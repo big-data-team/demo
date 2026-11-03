@@ -1,6 +1,7 @@
 from string import message
 
 def main():
+    print("----")
     print(message())
     print("----")
 
