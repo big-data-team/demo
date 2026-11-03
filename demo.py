@@ -1,5 +1,7 @@
+from string import message
+
 def main():
-    print("Hello, World! I am so happy to see you")
+    print(message())
     print("----")
 
 if __name__ == "__main__":
